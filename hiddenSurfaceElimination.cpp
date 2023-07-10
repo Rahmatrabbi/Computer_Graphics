@@ -22,6 +22,7 @@ void TriAngle() {
     floodfill(260,260,BLUE);
 }
 int main() {
+    cout<<"Enter the Sequence of Objects : ";
     string sequence;
     cin>>sequence;
     int gd = DETECT,gm;
