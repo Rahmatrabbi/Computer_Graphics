@@ -30,7 +30,7 @@ void bezier(int xp[],int yp[]) {
 int main() {
     initwindow(16*60,9*60);
     cout<<"Enter the Number of Control Points = ";
-    cin>>numControl;
+    cin>>numControl;  // 4 200 300 300 400 300 300 100 200
     degree = numControl - 1;
     int x[numControl],y[numControl];
 
